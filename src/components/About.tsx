@@ -21,17 +21,20 @@ export default function About() {
         </div>
         <div className="prose lg:prose-xl mx-auto">
           <p className="mb-4">
-            Mabel Boamah, a 28-year-old from the Western North region of Ghana, is the passionate founder of Miss Bloom Global. 
-            Residing in Greater Accra with her family, she is a dedicated advocate for women's empowerment and cultural exchange. 
-            With a strong background in event management and marketing, Mabel has assembled a team of professionals to create a 
-            unique platform for women worldwide.
+            As the founder of Miss Bloom Global, Mabel Boamah is a 28-year-old Ghanaian Actress and TV Advertiser. She hails from the Western North region of Ghana and currently lives in Greater Accra with her husband and kids. Mabel is a passionate advocate for women's empowerment and cultural exchange. With a strong background in event management and marketing, she has brought together a team of dedicated professionals to create a unique and enriching experience for contestants and audiences alike.
           </p>
-          <h3 className="font-bold mt-6 mb-4">Miss Bloom Global aims to:</h3>
-          <ul className="list-disc pl-6">
+          <p className="mb-4">
+            Mabel Boamah's vision for Miss Bloom Global is to create a platform that celebrates the diversity and beauty of women from around the world, while providing opportunities for personal growth, cultural exchange, and community engagement.
+          </p>
+
+          <h3 className="font-bold mt-6 mb-4">Miss Bloom Global Aims To:</h3>
+          <ul className="list-disc pl-6 mb-6">
             <li>Empower women to become confident leaders and change-makers in their communities.</li>
             <li>Promote cultural understanding and exchange between nations.</li>
             <li>Provide a platform for women to share their stories, talents, and passions with a global audience.</li>
           </ul>
+
+         
         </div>
       </div>
     </section>
