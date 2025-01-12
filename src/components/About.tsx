@@ -1,4 +1,7 @@
 import React from 'react';
+import Founder1 from '../../img/founder 1.jpeg'; // Importing the first image
+import Founder2 from '../../img/founder 2.jpeg'; // Importing the second image
+import Founder3 from '../../img/founder 3.jpeg'; // Importing the third image
 
 export default function About() {
   return (
@@ -7,9 +10,9 @@ export default function About() {
         <h2 className="text-3xl font-bold text-center mb-8">About Mabel Boamah, Founder of Miss Bloom Global</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           {[
-            '../../img/founder 1.jpeg',
-            '../../img/founder 2.jpeg',
-            '../../img/founder 3.jpeg'
+            Founder1, // Using the imported image
+            Founder2, // Using the imported image
+            Founder3  // Using the imported image
           ].map((src, index) => (
             <img
               key={index}
@@ -21,7 +24,7 @@ export default function About() {
         </div>
         <div className="prose lg:prose-xl mx-auto">
           <p className="mb-4">
-            As the founder of Miss Bloom Global, Mabel Boamah is a 28-year-old Ghanaian Actress and TV Advertiser.She hails from the Western North region of Ghana and currently lives in Greater Accra with her husband and kids. Mabel is a passionate advocate for women's empowerment and cultural exchange. With a strong background in event management and marketing, she has brought together a team of dedicated professionals to create a unique and enriching experience for contestants and audiences alike.
+            As the founder of Miss Bloom Global, Mabel Boamah is a 28-year-old Ghanaian Actress and TV Advertiser. She hails from the Western North region of Ghana and currently lives in Greater Accra with her husband and kids. Mabel is a passionate advocate for women's empowerment and cultural exchange. With a strong background in event management and marketing, she has brought together a team of dedicated professionals to create a unique and enriching experience for contestants and audiences alike.
           </p>
           <p className="mb-4">
             Mabel Boamah's vision for Miss Bloom Global is to create a platform that celebrates the diversity and beauty of women from around the world, while providing opportunities for personal growth, cultural exchange, and community engagement.
@@ -33,8 +36,6 @@ export default function About() {
             <li>Promote cultural understanding and exchange between nations.</li>
             <li>Provide a platform for women to share their stories, talents, and passions with a global audience.</li>
           </ul>
-
-         
         </div>
       </div>
     </section>
