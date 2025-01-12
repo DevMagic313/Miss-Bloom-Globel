@@ -1,12 +1,18 @@
 import React from "react";
+import missBloom1 from "../../img/miss bloom 1.jpeg";
+import missBloom2 from "../../img/miss bloom 2.jpeg";
+import missBloom3 from "../../img/miss bloom 3.jpeg";
+import missBloom4 from "../../img/miss bloom 4.jpeg";
+import missBloom5 from "../../img/miss bloom 5.jpeg";
+import missBloom6 from "../../img/miss bloom 6.jpeg";
 
 const images = [
-  { src: "../../img/miss bloom 4.jpeg" },
-  { src: "../../img/miss bloom 5.jpeg" },
-  { src: "../../img/miss bloom 6.jpeg"},
-  { src: '../../img/miss bloom 1.jpeg' },
-  { src: '../../img/miss bloom 2.jpeg'},
-  { src: '../../img/miss bloom 3.jpeg' },
+  { src: missBloom4 },
+  { src: missBloom5 },
+  { src: missBloom6 },
+  { src: missBloom1 },
+  { src: missBloom2 },
+  { src: missBloom3 },
 ];
 
 export default function Gallery() {
@@ -38,7 +44,7 @@ export default function Gallery() {
             Meet Our Queen: Patience Bumbom
           </h2>
           <img
-            src="../../img/miss bloom 2.jpeg"
+            src={missBloom2}
             alt="Patience Bumbom"
             className="w-64 h-64 object-contain rounded-lg shadow-lg mb-8 mx-auto"
             loading="lazy"
@@ -57,7 +63,7 @@ export default function Gallery() {
               University of Media Arts and Communication - Institute of
               Journalism. Singing and acting are her hobbies. With her
               captivating smile, charming personality, and passion for helping
-              girls' education, Patience is the perfect representative for Miss
+ girls' education, Patience is the perfect representative for Miss
               Bloom Global.
             </p>
             <blockquote className="italic border-l-4 border-purple-500 pl-4 my-6">
