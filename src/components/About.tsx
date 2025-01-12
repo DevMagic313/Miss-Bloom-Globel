@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="prose lg:prose-xl mx-auto">
           <p className="mb-4">
-            As the founder of Miss Bloom Global, Mabel Boamah is a 28-year-old Ghanaian Actress and TV Advertiser. She hails from the Western North region of Ghana and currently lives in Greater Accra with her husband and kids. Mabel is a passionate advocate for women's empowerment and cultural exchange. With a strong background in event management and marketing, she has brought together a team of dedicated professionals to create a unique and enriching experience for contestants and audiences alike.
+            As the founder of Miss Bloom Global, Mabel Boamah is a 28-year-old Ghanaian Actress and TV Advertiser.She hails from the Western North region of Ghana and currently lives in Greater Accra with her husband and kids. Mabel is a passionate advocate for women's empowerment and cultural exchange. With a strong background in event management and marketing, she has brought together a team of dedicated professionals to create a unique and enriching experience for contestants and audiences alike.
           </p>
           <p className="mb-4">
             Mabel Boamah's vision for Miss Bloom Global is to create a platform that celebrates the diversity and beauty of women from around the world, while providing opportunities for personal growth, cultural exchange, and community engagement.
