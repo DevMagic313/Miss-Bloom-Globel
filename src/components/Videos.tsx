@@ -1,4 +1,6 @@
 import React from 'react';
+import MissBloom1 from '../../video/miss bloom 1.mp4'; // Import the first video
+import MissBloom2 from '../../video/miss bloom 2.mp4'; // Import the second video
 
 export default function Videos() {
   return (
@@ -10,7 +12,7 @@ export default function Videos() {
             <video
               className="w-full h-[300px] object-cover rounded"
               controls
-              src="../../video/miss bloom 1.mp4"
+              src={MissBloom1} // Use the imported video
             />
             <p className="text-center mt-4 font-medium">Miss Global 2024</p>
           </div>
@@ -18,7 +20,7 @@ export default function Videos() {
             <video
               className="w-full h-[300px] object-cover rounded"
               controls
-              src="../../video/miss bloom 2.mp4"
+              src={MissBloom2} // Use the imported video
             />
             <p className="text-center mt-4 font-medium">Miss Bloom Global Highlights</p>
           </div>
