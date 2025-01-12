@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import logoImage from '../../img/logo.jpeg'; // Import the logo image
 
 export default function Header() {
   const scrollToSection = (sectionId: string) => {
@@ -19,7 +20,10 @@ export default function Header() {
       transition={{ duration: 0.8 }}
       className="relative bg-gradient-to-r from-pink-500 to-purple-600 py-8"
     >
-      <div className="absolute inset-0 bg-[url('../../img/logo.jpeg')] bg-cover bg-center mix-blend-overlay opacity-20"></div>
+      <div 
+        className="absolute inset-0 bg-cover bg-center mix-blend-overlay opacity-20"
+        style={{ backgroundImage: `url(${logoImage})` }} // Use the imported image
+      ></div>
       
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between relative z-10">
@@ -29,7 +33,7 @@ export default function Header() {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <img
-              src="../../img/logo.jpeg"
+              src={logoImage} // Use the imported image
               alt="Miss Bloom Global Logo"
               className="w-16 h-16 rounded-full border-4 border-white shadow-lg mr-4"
             />
